@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Detalhes do Projeto - Jogo de Plataforma com Pygame</title>
+  <title>Detalhes do Projeto - Jogo Educacional Scratch</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -107,12 +107,15 @@
 
               <div class="swiper-wrapper align-items-center">
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/platform-game.png" alt="Portfolio Pygame Image" class="img-fluid" loading="lazy">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/platform-game-menu.png" alt="Portfolio Image" class="img-fluid" loading="lazy">
+                  <div class="swiper-slide">
+                  <div class="ratio ratio-16x9">
+                    <iframe 
+                      src="https://scratch.mit.edu/projects/1068400109/embed" 
+                      allowfullscreen 
+                      allowtransparency="true"
+                      frameborder="0">
+                    </iframe>
+                  </div>
                 </div>
 
               </div>
@@ -124,10 +127,10 @@
             <div class="portfolio-info" data-aos="fade-left" data-aos-delay="200">
               <h3>Informações do Projeto</h3>
               <ul>
-                <li><strong>Categoria</strong>: Game Development</li>
-                <li><strong>Cliente</strong>: Guilherme Guimarães</li>
-                <li><strong>Tecnologia</strong>: Python + Pygame Zero</li>
-                <li><strong>Repositório do Projeto</strong>: <a href="https://github.com/Tolugaa/pgzero_demo_game" target="_blank">Tolugaa/pgzero_demo_game</a></li>
+                <li><strong>Categoria:</strong> Game Development / Educação</li>
+                <li><strong>Autor:</strong> Guilherme Guimarães</li>
+                <li><strong>Tecnologia:</strong> Scratch</li>
+                <li><strong>Projeto Online:</strong><a href="https://scratch.mit.edu/projects/1068400109" target="_blank">Visualizar no Scratch</a></li>
               </ul>
             </div>
           </div>
@@ -135,15 +138,14 @@
           <div class="col-lg-12">
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
               <h2>Visão geral do Projeto</h2>
-              <h5>Demo Game – Jogo 2D desenvolvido com Pygame Zero</h5>
               <p>
-                Este projeto consiste no desenvolvimento de um jogo 2D utilizando Python e o framework Pygame Zero. A aplicação foi construída com foco em lógica de programação, organização de estados do jogo e manipulação de eventos, consolidando conceitos fundamentais de desenvolvimento de software.
+                Este projeto consiste em um jogo educacional desenvolvido em Scratch que combina aprendizado matemático com mecânicas de ação e pontuação dinâmica. O jogador deve analisar a operação de tabuada apresentada e utilizar o personagem para atirar no resultado correto, enquanto desvia de obstáculos em movimento.
               </p>
               <p>
-                O jogo possui sistema de menu inicial, controle de estados (menu, gameplay, vitória e game over), movimentação do personagem, detecção de colisões, pontuação, sistema de áudio com opção de ativar/desativar som e funcionalidade de reinício da partida. Também foram implementadas boas práticas como separação lógica de responsabilidades, controle de fluxo do jogo e tratamento de erros relacionados a áudio para garantir maior compatibilidade entre ambientes.
+                O sistema conta com níveis de dificuldade que alteram a quantidade de vidas, pontuação necessária para vitória, pontos ganhos por acerto e pontos perdidos por erro, criando uma progressão estratégica e desafiadora.
               </p>
               <p>
-                Além da parte técnica, o projeto foi versionado no GitHub, estruturado com organização de pastas (assets, imagens, sons) e preparado para distribuição.
+                O jogo implementa controle de estados (vitória, derrota e gameplay), gerenciamento de colisões, variáveis dinâmicas e regras condicionais, demonstrando organização lógica e estruturação eficiente do fluxo da aplicação.
               </p>
 
               <div class="features mt-4">
@@ -151,34 +153,34 @@
                 <div class="row gy-3">
 
                   <div class="col-md-6">
-                    <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
-                      <i class="bi bi-code-slash"></i>
-                      <h4>Lógica de Programação</h4>
-                      <p>Aplicação prática de conceitos fundamentais como estruturas de decisão, repetição e manipulação de dados para construção de funcionalidades reais.</p>
+                    <div class="feature-item">
+                      <i class="bi bi-calculator"></i>
+                      <h4>Lógica Condicional e Variáveis</h4>
+                      <p>Uso estruturado de variáveis para controle de pontuação, vidas e níveis de dificuldade.</p>
                     </div>
                   </div>
 
                   <div class="col-md-6">
-                    <div class="feature-item" data-aos="fade-up" data-aos-delay="500">
-                      <i class="bi bi-lightning-charge"></i>
-                      <h4>Eventos e Estados</h4>
-                      <p>Gerenciamento de eventos, controle de estados da aplicação e organização do fluxo lógico para garantir funcionamento consistente.</p>
+                    <div class="feature-item">
+                      <i class="bi bi-controller"></i>
+                      <h4>Gerenciamento de Estados</h4>
+                      <p>Implementação de condições de vitória, derrota e fluxo contínuo de jogo.</p>
                     </div>
                   </div>
 
                   <div class="col-md-6">
-                    <div class="feature-item" data-aos="fade-up" data-aos-delay="600">
-                      <i class="bi bi-diagram-3"></i>
-                      <h4>Organização de Projeto</h4>
-                      <p>Estruturação modular do código, separação de responsabilidades e boas práticas para manter o projeto escalável e de fácil manutenção.</p>
+                    <div class="feature-item">
+                      <i class="bi bi-speedometer2"></i>
+                      <h4>Sistema de Dificuldade</h4>
+                      <p>Progressão dinâmica com alteração de regras e parâmetros conforme o nível selecionado.</p>
                     </div>
                   </div>
 
                   <div class="col-md-6">
-                    <div class="feature-item" data-aos="fade-up" data-aos-delay="700">
-                      <i class="bi bi-git"></i>
-                      <h4>Controle de Versão e Debug</h4>
-                      <p>Resolução de problemas técnicos, testes e uso do Git para versionamento, garantindo controle, rastreabilidade e evolução do projeto.</p>
+                    <div class="feature-item">
+                      <i class="bi bi-lightbulb"></i>
+                      <h4>Gamificação Educacional</h4>
+                      <p>Aplicação de mecânicas de jogo para estimular raciocínio lógico e aprendizado matemático.</p>
                     </div>
                   </div>
 
